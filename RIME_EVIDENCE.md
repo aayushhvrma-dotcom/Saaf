@@ -105,7 +105,7 @@ npm install
 
 Configure the Rime API key through ".env.local":
 
-RIME_API_KEY=your_rime_api_key_here
+RIME_API_KEY=N-EIOPu4hNJpptCaKf_V2GfKZFYcH2NlHJdp4NVgoHI
 
 Generate the evidence:
 
