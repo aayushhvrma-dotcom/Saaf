@@ -100,17 +100,19 @@ Detailed voice evaluation is documented separately in:
 
 `RIME_EVIDENCE.md`
 
-## Demo
+## Demo Video
 
-A separate recorded demo demonstrates:
+🎥 **Full Demo Video:**  
+[Watch the Saaf Demo](https://drive.google.com/drive/folders/1E4iRtIUX4vdoG4hS5Yzc6JPCsZNXFrLO)
 
-1. Target user and problem
-2. Normal Saaf workflow
-3. Naive vs controlled delivery
-4. Identifier intelligibility challenge
-5. Stress/failure case
-6. Evaluation workflow
-7. Rime as the active provider
+The demo demonstrates:
+
+- The identifier intelligibility problem
+- Naive vs controlled voice delivery
+- Rime as the primary TTS provider
+- Blind A/B evaluation
+- Final result
+
 
 ## Repository
 
