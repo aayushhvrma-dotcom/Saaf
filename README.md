@@ -1,418 +1,122 @@
-Saaf — Controlled Voice Delivery
 
-DataForge × Rime Hackathon Entry
 
-Saaf is a voice-native pipeline for clear and controlled delivery of critical identifiers, including OTPs, PIN codes, phone numbers, names, and other edge-case information.
+# Saaf — Controlled Voice Delivery
 
-The project addresses a real-world problem in IVR, telephony, accessibility, and voice interfaces: important identifiers can become difficult to understand when spoken naturally by a text-to-speech system.
+## DataForge × Rime Hackathon
 
-Saaf uses Rime TTS as its primary spoken output and combines Rime's "spell()" functionality with controlled pauses and inline phonetic overrides to improve the intelligibility of critical readbacks.
+**Saaf** is a voice-native system designed to make critical identifiers
+such as OTPs, PINs, phone numbers, names and reference IDs easier to
+understand when spoken through TTS.
 
----
+## Problem
 
-Problem
+Natural TTS can make numbers, letters, abbreviations and uncommon names
+difficult to distinguish.
 
-Voice systems frequently need to read information such as:
+For critical information, intelligibility is more important than simply
+sounding natural.
 
-- OTPs
-- PIN codes
-- Phone numbers
-- Names
-- Account/reference identifiers
-- Other alphanumeric information
+## Solution
 
-Natural TTS delivery can make these identifiers difficult to distinguish, especially when numbers, letters, abbreviations, or uncommon names occur together.
+Saaf converts critical identifiers into controlled speech using Rime TTS.
 
-For these use cases, being understandable is more important than simply sounding natural.
+It uses:
 
-Saaf focuses specifically on this voice problem by generating and comparing:
-
-Naive delivery → Controlled delivery
-
----
-
-Solution
-
-Saaf provides a controlled voice-delivery pipeline that transforms critical identifiers into speech using Rime.
-
-The pipeline can apply:
-
-- Rime "spell()" for controlled spelling
-- Custom pauses between important elements
+- Rime `spell()` for controlled spelling
+- Custom pauses
 - Inline phonetic overrides
 - Controlled speech speed
 - Identifier-specific delivery rules
 
-The goal is to make critical information easier to hear, distinguish, and transcribe correctly.
+## Why Voice Is Essential
 
----
+Voice is the core of Saaf.
 
-Why Voice Is Essential
-
-Voice is not an optional layer in Saaf.
-
-The core purpose of the application is to determine whether a critical identifier is actually understandable when spoken.
-
-Removing speech would remove the primary problem being solved and the main evaluation mechanism.
-
-Rime-generated speech is therefore central to the product rather than being used only for:
-
-- A welcome message
-- A final confirmation
-- Optional playback
+The product is specifically evaluating whether a listener can correctly
+understand and transcribe an identifier when it is spoken.
 
 Rime is the primary speech provider in the demonstrated flow.
 
----
+## Hard Voice Problem
 
-Key Voice Challenge
+**Identifier Intelligibility**
 
-Identifier Intelligibility
+> Can critical identifiers be delivered through TTS so that listeners can
+> accurately understand and transcribe them?
 
-The primary voice-specific challenge addressed by Saaf is:
-
-«How can critical identifiers be delivered through TTS so that listeners can accurately understand and transcribe them?»
-
-The project evaluates whether controlled delivery performs better than a naive TTS implementation.
-
----
-
-Acceptance Test
+## Acceptance Test
 
 Saaf uses a blind A/B listening test.
 
-Two versions of the same identifier are generated:
-
-- A — Naive: standard/uncontrolled delivery
-- B — Tuned: Saaf-controlled delivery
-
-Listeners do not know which version is the tuned implementation.
-
-They listen to each clip and transcribe the identifier they hear.
-
-The results are then compared to determine whether controlled delivery improves intelligibility.
-
-Test Dataset
-
-The evidence-generation harness produces:
-
+- A = Naive TTS delivery
+- B = Saaf controlled delivery
 - 38 identifiers
 - 2 variants per identifier
 - 76 total audio clips
 
-The generated clips are stored in:
+Listeners transcribe what they hear without knowing which version is tuned.
 
-evidence/clips/
+The transcription accuracy is then compared between the two variants.
 
-The exact results of the listening test are documented separately in:
+## Architecture
 
-RIME_EVIDENCE.md
+User → React/Vite UI → Vercel API → Rime TTS → Controlled Audio
 
----
-
-Architecture
-
-                ┌──────────────────┐
-                │     User / UI    │
-                └────────┬─────────┘
-                         │
-                         ▼
-                ┌──────────────────┐
-                │   React + Vite   │
-                │   Saaf Frontend  │
-                └────────┬─────────┘
-                         │
-                         ▼
-                ┌──────────────────┐
-                │ Vercel API Route │
-                │   /api/*         │
-                └────────┬─────────┘
-                         │
-                         ▼
-                ┌──────────────────┐
-                │     Rime TTS     │
-                │   Primary Voice  │
-                └────────┬─────────┘
-                         │
-                         ▼
-                ┌──────────────────┐
-                │ Controlled Audio │
-                │    Readback      │
-                └──────────────────┘
-
-The Rime API key is kept server-side and is accessed through environment variables/serverless API routes rather than being exposed in client-side code.
-
----
-
-Rime Integration
-
-Rime is used as the primary spoken-output provider.
-
-Saaf uses Rime capabilities for controlled delivery, including:
-
-- "spell()" for identifier pronunciation
-- Speech speed control
-- Custom pause handling
-- Inline phonetic overrides
-- Rime voice/model configuration
-
-Rime Configuration
-
-The exact configuration used in the final demo must be recorded here:
-
-Configuration| Value
-Model ID| "[EXACT RIME MODEL ID]"
-Speaker / Voice| "[EXACT SPEAKER]"
-Language| "[LANGUAGE]"
-Endpoint| "[EXACT ENDPOINT]"
-Audio Format| "[EXACT AUDIO FORMAT]"
-Transport| "[EXACT TRANSPORT]"
-
-Important: These values should match the exact configuration used in the submitted demo.
-
----
-
-Active Provider
-
-The application displays the active speech provider through the provider indicator in the interface.
-
-The judged flow uses:
-
-Provider: Rime
-
-The active model is also displayed where supported by the application.
-
----
-
-Tech Stack
-
-Frontend
+## Tech Stack
 
 - React
 - Vite
 - Tailwind CSS
-
-Backend
-
 - Vercel Serverless Functions
-- "/api/*" routes
-
-Scripting
-
 - Node.js
-- "tsx"
-
-Testing
-
+- TypeScript / tsx
 - Vitest
-- Blind A/B listening-test workflow
-
-Speech
-
 - Rime TTS
 
----
+## Rime Integration
 
-Getting Started
+| Configuration | Value |
+|---|---|
+| Provider | Rime |
+| Model | `mistv2` |
+| Speaker | Actual demo speaker |
+| Language | Actual demo language |
+| Endpoint | Actual endpoint |
+| Audio Format | Actual format |
+| Transport | Actual transport |
 
-1. Clone the repository
+> The remaining values must match the exact configuration used in the final demo.
 
-git clone [YOUR_GITHUB_REPOSITORY_URL]
-cd [YOUR_PROJECT_DIRECTORY]
+## Security
 
-2. Install dependencies
+The Rime API key is stored only in environment variables.
 
-npm install
+It is never committed to GitHub, README, screenshots, recordings or
+client-side code.
 
-3. Configure environment variables
+## Evidence
 
-Copy the example environment file:
+Detailed voice evaluation is documented separately in:
 
-cp .env.example .env.local
+`RIME_EVIDENCE.md`
 
-Add your Rime API key:
+## Demo
 
-RIME_API_KEY=your_rime_api_key_here
+A separate recorded demo demonstrates:
 
-Never commit the real API key to the repository.
+1. Target user and problem
+2. Normal Saaf workflow
+3. Naive vs controlled delivery
+4. Identifier intelligibility challenge
+5. Stress/failure case
+6. Evaluation workflow
+7. Rime as the active provider
 
-4. Run the application
+## Repository
 
-npm run dev
+GitHub:
+https://github.com/aayushhvrma-dotcom/Saaf
 
-If the "/api/*" serverless routes require the Vercel runtime locally, use:
+## Tagline
 
-vercel dev
-
-or configure the appropriate local Vite proxy.
-
----
-
-Evidence Generation
-
-Saaf includes a CLI harness for generating the audio used in the acceptance test.
-
-Run:
-
-npm run generate-evidence
-
-This generates the naive and tuned audio variants and saves them under:
-
-evidence/clips/
-
-The current test harness generates:
-
-38 identifiers × 2 variants = 76 clips
-
----
-
-Running the Blind Listening Test
-
-1. Start the application.
-2. Open the Test Lab.
-3. Start the blind A/B listening test.
-4. Listen to each generated clip.
-5. Transcribe what you hear.
-6. Compare the transcription against the expected identifier.
-7. Export the results.
-
-The application provides:
-
-Export evidence-results.json
-
-The exported results should be used to complete:
-
-RIME_EVIDENCE.md
-
----
-
-RIME_EVIDENCE.md
-
-The repository contains a separate evidence document describing the voice evaluation.
-
-It should include:
-
-- Voice problem being tested
-- Acceptance test
-- Test procedure
-- Dataset/fixtures
-- Actual measured results
-- Limitations
-- Reproduction instructions
-
-Where practical, the evidence should be reproducible using the included test harness.
-
----
-
-Known Limitations
-
-- Voice intelligibility can vary depending on listener, audio quality, device, and environment.
-- Network conditions can affect the complete response path.
-- Results from a limited listening sample should not be treated as universal performance guarantees.
-- Unsupported or unusual identifiers may require additional pronunciation rules.
-- The final measurements should be interpreted together with the test conditions documented in "RIME_EVIDENCE.md".
-
----
-
-Failure Behavior
-
-If the speech generation dependency or network request fails, the application should expose the failure rather than silently presenting an invalid result.
-
-The exact fallback behavior used in the final implementation should be documented here:
-
-[DOCUMENT ACTUAL FAILURE/FALLBACK BEHAVIOR USED BY THE APP]
-
-If a fallback speech provider is enabled, it must be clearly disclosed and Rime should remain the default path for the judged flow.
-
----
-
-Security
-
-API credentials are not stored in source code.
-
-The Rime API key is supplied through environment variables:
-
-RIME_API_KEY=your_rime_api_key_here
-
-The real credential must never be committed to:
-
-- GitHub
-- Source code
-- README
-- Screenshots
-- Demo recordings
-- Client-side JavaScript
-
-Use ".env.example" only with placeholder values.
-
----
-
-Repository Structure
-
-.
-├── src/
-├── api/
-├── evidence/
-│   └── clips/
-├── .env.example
-├── README.md
-├── RIME_EVIDENCE.md
-├── package.json
-└── ...
-
-Adjust this structure if the actual repository uses different folders.
-
----
-
-Demo
-
-The submission includes a recorded demo demonstrating:
-
-1. The target user and problem
-2. The normal Saaf workflow
-3. The controlled voice-delivery pipeline
-4. The selected voice challenge
-5. A deliberate stress/failure case
-6. The evaluation/evidence workflow
-7. Rime as the active speech provider
-
-Demo Recording
-
-"[ADD YOUR DEMO VIDEO LINK HERE IF REQUIRED]"
-
----
-
-Submission
-
-Required Submission Assets
-
-- Demo: Recorded demonstration, maximum 4–5 minutes
-- Repository: Source code judges can inspect
-- README: Setup, architecture, services, limitations, and Rime configuration
-- RIME_EVIDENCE.md: Voice claim, acceptance test, procedure, results, and limitations
-- Environment example: Placeholder configuration only
-
----
-
-Hackathon Compliance
-
-Saaf is designed around the Rime Hackathon requirements:
-
-- Voice is essential to the product: Yes
-- Rime is the primary spoken output: Yes
-- Hard voice problem: Identifier intelligibility
-- Acceptance test: Blind A/B listening test
-- Evidence: Generated clips + listening-test results
-- Working code: React application + CLI evidence harness
-- Credential hygiene: API key supplied through environment variables
-- Reproducibility: Evidence generation and test workflow included
-
----
-
-Built For
-
-DataForge × Rime Hackathon
-
-Saaf
-
-Make critical information clear enough to hear — not just natural enough to speak.
+**Make critical information clear enough to hear — not just natural enough to speak.**
