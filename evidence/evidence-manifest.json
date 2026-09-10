@@ -1,0 +1,610 @@
+[
+  {
+    "clipFile": "names__Subramanian__naive.mp3",
+    "category": "names",
+    "identifier": "Subramanian",
+    "condition": "naive",
+    "text": "This call is for Subramanian. Please confirm if this is correct.",
+    "expectedText": "Subramanian"
+  },
+  {
+    "clipFile": "names__Subramanian__tuned.mp3",
+    "category": "names",
+    "identifier": "Subramanian",
+    "condition": "tuned",
+    "text": "This call is for Subramanian. Please confirm if this is correct.",
+    "expectedText": "Subramanian"
+  },
+  {
+    "clipFile": "names__Bhattacharya__naive.mp3",
+    "category": "names",
+    "identifier": "Bhattacharya",
+    "condition": "naive",
+    "text": "This call is for Bhattacharya. Please confirm if this is correct.",
+    "expectedText": "Bhattacharya"
+  },
+  {
+    "clipFile": "names__Bhattacharya__tuned.mp3",
+    "category": "names",
+    "identifier": "Bhattacharya",
+    "condition": "tuned",
+    "text": "This call is for Bhattacharya. Please confirm if this is correct.",
+    "expectedText": "Bhattacharya"
+  },
+  {
+    "clipFile": "names__Krishnamurthy__naive.mp3",
+    "category": "names",
+    "identifier": "Krishnamurthy",
+    "condition": "naive",
+    "text": "This call is for Krishnamurthy. Please confirm if this is correct.",
+    "expectedText": "Krishnamurthy"
+  },
+  {
+    "clipFile": "names__Krishnamurthy__tuned.mp3",
+    "category": "names",
+    "identifier": "Krishnamurthy",
+    "condition": "tuned",
+    "text": "This call is for Krishnamurthy. Please confirm if this is correct.",
+    "expectedText": "Krishnamurthy"
+  },
+  {
+    "clipFile": "names__Padmanabhan__naive.mp3",
+    "category": "names",
+    "identifier": "Padmanabhan",
+    "condition": "naive",
+    "text": "This call is for Padmanabhan. Please confirm if this is correct.",
+    "expectedText": "Padmanabhan"
+  },
+  {
+    "clipFile": "names__Padmanabhan__tuned.mp3",
+    "category": "names",
+    "identifier": "Padmanabhan",
+    "condition": "tuned",
+    "text": "This call is for Padmanabhan. Please confirm if this is correct.",
+    "expectedText": "Padmanabhan"
+  },
+  {
+    "clipFile": "names__Chandrasekhar__naive.mp3",
+    "category": "names",
+    "identifier": "Chandrasekhar",
+    "condition": "naive",
+    "text": "This call is for Chandrasekhar. Please confirm if this is correct.",
+    "expectedText": "Chandrasekhar"
+  },
+  {
+    "clipFile": "names__Chandrasekhar__tuned.mp3",
+    "category": "names",
+    "identifier": "Chandrasekhar",
+    "condition": "tuned",
+    "text": "This call is for Chandrasekhar. Please confirm if this is correct.",
+    "expectedText": "Chandrasekhar"
+  },
+  {
+    "clipFile": "names__Thiruvenkatam__naive.mp3",
+    "category": "names",
+    "identifier": "Thiruvenkatam",
+    "condition": "naive",
+    "text": "This call is for Thiruvenkatam. Please confirm if this is correct.",
+    "expectedText": "Thiruvenkatam"
+  },
+  {
+    "clipFile": "names__Thiruvenkatam__tuned.mp3",
+    "category": "names",
+    "identifier": "Thiruvenkatam",
+    "condition": "tuned",
+    "text": "This call is for Thiruvenkatam. Please confirm if this is correct.",
+    "expectedText": "Thiruvenkatam"
+  },
+  {
+    "clipFile": "names__Raghunandan__naive.mp3",
+    "category": "names",
+    "identifier": "Raghunandan",
+    "condition": "naive",
+    "text": "This call is for Raghunandan. Please confirm if this is correct.",
+    "expectedText": "Raghunandan"
+  },
+  {
+    "clipFile": "names__Raghunandan__tuned.mp3",
+    "category": "names",
+    "identifier": "Raghunandan",
+    "condition": "tuned",
+    "text": "This call is for Raghunandan. Please confirm if this is correct.",
+    "expectedText": "Raghunandan"
+  },
+  {
+    "clipFile": "names__Jagannathan__naive.mp3",
+    "category": "names",
+    "identifier": "Jagannathan",
+    "condition": "naive",
+    "text": "This call is for Jagannathan. Please confirm if this is correct.",
+    "expectedText": "Jagannathan"
+  },
+  {
+    "clipFile": "names__Jagannathan__tuned.mp3",
+    "category": "names",
+    "identifier": "Jagannathan",
+    "condition": "tuned",
+    "text": "This call is for Jagannathan. Please confirm if this is correct.",
+    "expectedText": "Jagannathan"
+  },
+  {
+    "clipFile": "names__Deshpande__naive.mp3",
+    "category": "names",
+    "identifier": "Deshpande",
+    "condition": "naive",
+    "text": "This call is for Deshpande. Please confirm if this is correct.",
+    "expectedText": "Deshpande"
+  },
+  {
+    "clipFile": "names__Deshpande__tuned.mp3",
+    "category": "names",
+    "identifier": "Deshpande",
+    "condition": "tuned",
+    "text": "This call is for Deshpande. Please confirm if this is correct.",
+    "expectedText": "Deshpande"
+  },
+  {
+    "clipFile": "names__Venkataramaiah__naive.mp3",
+    "category": "names",
+    "identifier": "Venkataramaiah",
+    "condition": "naive",
+    "text": "This call is for Venkataramaiah. Please confirm if this is correct.",
+    "expectedText": "Venkataramaiah"
+  },
+  {
+    "clipFile": "names__Venkataramaiah__tuned.mp3",
+    "category": "names",
+    "identifier": "Venkataramaiah",
+    "condition": "tuned",
+    "text": "This call is for Venkataramaiah. Please confirm if this is correct.",
+    "expectedText": "Venkataramaiah"
+  },
+  {
+    "clipFile": "phone_numbers___919876543210__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919876543210",
+    "condition": "naive",
+    "text": "Your registered phone number is +919876543210. Please verify this number.",
+    "expectedText": "+919876543210"
+  },
+  {
+    "clipFile": "phone_numbers___919876543210__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919876543210",
+    "condition": "tuned",
+    "text": "Your registered phone number is <200> spell(+919876543210) <300>. Please verify this number.",
+    "expectedText": "+919876543210"
+  },
+  {
+    "clipFile": "phone_numbers___919900112233__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919900112233",
+    "condition": "naive",
+    "text": "Your registered phone number is +919900112233. Please verify this number.",
+    "expectedText": "+919900112233"
+  },
+  {
+    "clipFile": "phone_numbers___919900112233__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919900112233",
+    "condition": "tuned",
+    "text": "Your registered phone number is <200> spell(+919900112233) <300>. Please verify this number.",
+    "expectedText": "+919900112233"
+  },
+  {
+    "clipFile": "phone_numbers___918888000088__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+918888000088",
+    "condition": "naive",
+    "text": "Your registered phone number is +918888000088. Please verify this number.",
+    "expectedText": "+918888000088"
+  },
+  {
+    "clipFile": "phone_numbers___918888000088__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+918888000088",
+    "condition": "tuned",
+    "text": "Your registered phone number is <200> spell(+918888000088) <300>. Please verify this number.",
+    "expectedText": "+918888000088"
+  },
+  {
+    "clipFile": "phone_numbers___917777777777__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+917777777777",
+    "condition": "naive",
+    "text": "Your registered phone number is +917777777777. Please verify this number.",
+    "expectedText": "+917777777777"
+  },
+  {
+    "clipFile": "phone_numbers___917777777777__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+917777777777",
+    "condition": "tuned",
+    "text": "Your registered phone number is <200> spell(+917777777777) <300>. Please verify this number.",
+    "expectedText": "+917777777777"
+  },
+  {
+    "clipFile": "phone_numbers___910987654321__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+910987654321",
+    "condition": "naive",
+    "text": "Your registered phone number is +910987654321. Please verify this number.",
+    "expectedText": "+910987654321"
+  },
+  {
+    "clipFile": "phone_numbers___910987654321__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+910987654321",
+    "condition": "tuned",
+    "text": "Your registered phone number is spell(+910987654321). Please verify this number.",
+    "expectedText": "+910987654321"
+  },
+  {
+    "clipFile": "phone_numbers___919123456789__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919123456789",
+    "condition": "naive",
+    "text": "Your registered phone number is +919123456789. Please verify this number.",
+    "expectedText": "+919123456789"
+  },
+  {
+    "clipFile": "phone_numbers___919123456789__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919123456789",
+    "condition": "tuned",
+    "text": "Your registered phone number is <200> spell(+919123456789) <300>. Please verify this number.",
+    "expectedText": "+919123456789"
+  },
+  {
+    "clipFile": "phone_numbers___919000000001__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919000000001",
+    "condition": "naive",
+    "text": "Your registered phone number is +919000000001. Please verify this number.",
+    "expectedText": "+919000000001"
+  },
+  {
+    "clipFile": "phone_numbers___919000000001__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+919000000001",
+    "condition": "tuned",
+    "text": "Your registered phone number is <200> spell(+919000000001) <300>. Please verify this number.",
+    "expectedText": "+919000000001"
+  },
+  {
+    "clipFile": "phone_numbers___916666999966__naive.mp3",
+    "category": "phone_numbers",
+    "identifier": "+916666999966",
+    "condition": "naive",
+    "text": "Your registered phone number is +916666999966. Please verify this number.",
+    "expectedText": "+916666999966"
+  },
+  {
+    "clipFile": "phone_numbers___916666999966__tuned.mp3",
+    "category": "phone_numbers",
+    "identifier": "+916666999966",
+    "condition": "tuned",
+    "text": "Your registered phone number is <200> spell(+916666999966) <300>. Please verify this number.",
+    "expectedText": "+916666999966"
+  },
+  {
+    "clipFile": "pincodes__110001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "110001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 110001. We will deliver to this location.",
+    "expectedText": "110001"
+  },
+  {
+    "clipFile": "pincodes__110001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "110001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(110001) <400> I repeat, <200> spell(110001). We will deliver to this location.",
+    "expectedText": "110001"
+  },
+  {
+    "clipFile": "pincodes__400001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "400001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 400001. We will deliver to this location.",
+    "expectedText": "400001"
+  },
+  {
+    "clipFile": "pincodes__400001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "400001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(400001) <400> I repeat, <200> spell(400001). We will deliver to this location.",
+    "expectedText": "400001"
+  },
+  {
+    "clipFile": "pincodes__500001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "500001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 500001. We will deliver to this location.",
+    "expectedText": "500001"
+  },
+  {
+    "clipFile": "pincodes__500001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "500001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(500001) <400> I repeat, <200> spell(500001). We will deliver to this location.",
+    "expectedText": "500001"
+  },
+  {
+    "clipFile": "pincodes__600001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "600001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 600001. We will deliver to this location.",
+    "expectedText": "600001"
+  },
+  {
+    "clipFile": "pincodes__600001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "600001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(600001) <400> I repeat, <200> spell(600001). We will deliver to this location.",
+    "expectedText": "600001"
+  },
+  {
+    "clipFile": "pincodes__700001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "700001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 700001. We will deliver to this location.",
+    "expectedText": "700001"
+  },
+  {
+    "clipFile": "pincodes__700001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "700001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(700001) <400> I repeat, <200> spell(700001). We will deliver to this location.",
+    "expectedText": "700001"
+  },
+  {
+    "clipFile": "pincodes__226001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "226001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 226001. We will deliver to this location.",
+    "expectedText": "226001"
+  },
+  {
+    "clipFile": "pincodes__226001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "226001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(226001) <400> I repeat, <200> spell(226001). We will deliver to this location.",
+    "expectedText": "226001"
+  },
+  {
+    "clipFile": "pincodes__380001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "380001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 380001. We will deliver to this location.",
+    "expectedText": "380001"
+  },
+  {
+    "clipFile": "pincodes__380001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "380001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(380001) <400> I repeat, <200> spell(380001). We will deliver to this location.",
+    "expectedText": "380001"
+  },
+  {
+    "clipFile": "pincodes__560001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "560001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 560001. We will deliver to this location.",
+    "expectedText": "560001"
+  },
+  {
+    "clipFile": "pincodes__560001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "560001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(560001) <400> I repeat, <200> spell(560001). We will deliver to this location.",
+    "expectedText": "560001"
+  },
+  {
+    "clipFile": "pincodes__302001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "302001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 302001. We will deliver to this location.",
+    "expectedText": "302001"
+  },
+  {
+    "clipFile": "pincodes__302001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "302001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(302001) <400> I repeat, <200> spell(302001). We will deliver to this location.",
+    "expectedText": "302001"
+  },
+  {
+    "clipFile": "pincodes__411001__naive.mp3",
+    "category": "pincodes",
+    "identifier": "411001",
+    "condition": "naive",
+    "text": "Your delivery pincode is 411001. We will deliver to this location.",
+    "expectedText": "411001"
+  },
+  {
+    "clipFile": "pincodes__411001__tuned.mp3",
+    "category": "pincodes",
+    "identifier": "411001",
+    "condition": "tuned",
+    "text": "Your delivery pincode is <200> spell(411001) <400> I repeat, <200> spell(411001). We will deliver to this location.",
+    "expectedText": "411001"
+  },
+  {
+    "clipFile": "order_ids__PRM423GDD__naive.mp3",
+    "category": "order_ids",
+    "identifier": "PRM423GDD",
+    "condition": "naive",
+    "text": "Your order reference is PRM423GDD. Please keep this for your records.",
+    "expectedText": "PRM423GDD"
+  },
+  {
+    "clipFile": "order_ids__PRM423GDD__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "PRM423GDD",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(PRM423GDD). Please keep this for your records.",
+    "expectedText": "PRM423GDD"
+  },
+  {
+    "clipFile": "order_ids__ORD7891AB__naive.mp3",
+    "category": "order_ids",
+    "identifier": "ORD7891AB",
+    "condition": "naive",
+    "text": "Your order reference is ORD7891AB. Please keep this for your records.",
+    "expectedText": "ORD7891AB"
+  },
+  {
+    "clipFile": "order_ids__ORD7891AB__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "ORD7891AB",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(ORD7891AB). Please keep this for your records.",
+    "expectedText": "ORD7891AB"
+  },
+  {
+    "clipFile": "order_ids__SHP00123X__naive.mp3",
+    "category": "order_ids",
+    "identifier": "SHP00123X",
+    "condition": "naive",
+    "text": "Your order reference is SHP00123X. Please keep this for your records.",
+    "expectedText": "SHP00123X"
+  },
+  {
+    "clipFile": "order_ids__SHP00123X__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "SHP00123X",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(SHP00123X). Please keep this for your records.",
+    "expectedText": "SHP00123X"
+  },
+  {
+    "clipFile": "order_ids__DLV555ABC__naive.mp3",
+    "category": "order_ids",
+    "identifier": "DLV555ABC",
+    "condition": "naive",
+    "text": "Your order reference is DLV555ABC. Please keep this for your records.",
+    "expectedText": "DLV555ABC"
+  },
+  {
+    "clipFile": "order_ids__DLV555ABC__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "DLV555ABC",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(DLV555ABC). Please keep this for your records.",
+    "expectedText": "DLV555ABC"
+  },
+  {
+    "clipFile": "order_ids__RET999ZZ1__naive.mp3",
+    "category": "order_ids",
+    "identifier": "RET999ZZ1",
+    "condition": "naive",
+    "text": "Your order reference is RET999ZZ1. Please keep this for your records.",
+    "expectedText": "RET999ZZ1"
+  },
+  {
+    "clipFile": "order_ids__RET999ZZ1__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "RET999ZZ1",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(RET999ZZ1). Please keep this for your records.",
+    "expectedText": "RET999ZZ1"
+  },
+  {
+    "clipFile": "order_ids__INV001A2B__naive.mp3",
+    "category": "order_ids",
+    "identifier": "INV001A2B",
+    "condition": "naive",
+    "text": "Your order reference is INV001A2B. Please keep this for your records.",
+    "expectedText": "INV001A2B"
+  },
+  {
+    "clipFile": "order_ids__INV001A2B__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "INV001A2B",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(INV001A2B). Please keep this for your records.",
+    "expectedText": "INV001A2B"
+  },
+  {
+    "clipFile": "order_ids__PKG333DEF__naive.mp3",
+    "category": "order_ids",
+    "identifier": "PKG333DEF",
+    "condition": "naive",
+    "text": "Your order reference is PKG333DEF. Please keep this for your records.",
+    "expectedText": "PKG333DEF"
+  },
+  {
+    "clipFile": "order_ids__PKG333DEF__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "PKG333DEF",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(PKG333DEF). Please keep this for your records.",
+    "expectedText": "PKG333DEF"
+  },
+  {
+    "clipFile": "order_ids__BKG777HIJ__naive.mp3",
+    "category": "order_ids",
+    "identifier": "BKG777HIJ",
+    "condition": "naive",
+    "text": "Your order reference is BKG777HIJ. Please keep this for your records.",
+    "expectedText": "BKG777HIJ"
+  },
+  {
+    "clipFile": "order_ids__BKG777HIJ__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "BKG777HIJ",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(BKG777HIJ). Please keep this for your records.",
+    "expectedText": "BKG777HIJ"
+  },
+  {
+    "clipFile": "order_ids__TRN444KLM__naive.mp3",
+    "category": "order_ids",
+    "identifier": "TRN444KLM",
+    "condition": "naive",
+    "text": "Your order reference is TRN444KLM. Please keep this for your records.",
+    "expectedText": "TRN444KLM"
+  },
+  {
+    "clipFile": "order_ids__TRN444KLM__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "TRN444KLM",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(TRN444KLM). Please keep this for your records.",
+    "expectedText": "TRN444KLM"
+  },
+  {
+    "clipFile": "order_ids__REF888NOP__naive.mp3",
+    "category": "order_ids",
+    "identifier": "REF888NOP",
+    "condition": "naive",
+    "text": "Your order reference is REF888NOP. Please keep this for your records.",
+    "expectedText": "REF888NOP"
+  },
+  {
+    "clipFile": "order_ids__REF888NOP__tuned.mp3",
+    "category": "order_ids",
+    "identifier": "REF888NOP",
+    "condition": "tuned",
+    "text": "Your order reference is <200> spell(REF888NOP). Please keep this for your records.",
+    "expectedText": "REF888NOP"
+  }
+]

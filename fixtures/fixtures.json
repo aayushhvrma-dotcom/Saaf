@@ -1,0 +1,48 @@
+{
+  "names": [
+    "Subramanian",
+    "Bhattacharya",
+    "Krishnamurthy",
+    "Padmanabhan",
+    "Chandrasekhar",
+    "Thiruvenkatam",
+    "Raghunandan",
+    "Jagannathan",
+    "Deshpande",
+    "Venkataramaiah"
+  ],
+  "phone_numbers": [
+    "+919876543210",
+    "+919900112233",
+    "+918888000088",
+    "+917777777777",
+    "+910987654321",
+    "+919123456789",
+    "+919000000001",
+    "+916666999966"
+  ],
+  "pincodes": [
+    "110001",
+    "400001",
+    "500001",
+    "600001",
+    "700001",
+    "226001",
+    "380001",
+    "560001",
+    "302001",
+    "411001"
+  ],
+  "order_ids": [
+    "PRM423GDD",
+    "ORD7891AB",
+    "SHP00123X",
+    "DLV555ABC",
+    "RET999ZZ1",
+    "INV001A2B",
+    "PKG333DEF",
+    "BKG777HIJ",
+    "TRN444KLM",
+    "REF888NOP"
+  ]
+}

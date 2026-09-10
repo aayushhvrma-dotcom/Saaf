@@ -1,0 +1,1 @@
+{"root":["./vite.config.ts","./api/coverage.ts","./api/normalize.ts","./api/synthesize.ts","./api/voices.ts","./api/evidence/run.ts","./scripts/generate-evidence.ts"],"version":"5.9.3"}

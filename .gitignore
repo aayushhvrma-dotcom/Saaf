@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Env files (NEVER commit real keys)
+.env
+.env.local
+.env.*.local
+
+# Evidence clips (generated, large binary files)
+evidence/clips/
+
+# Vercel
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
